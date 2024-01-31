@@ -281,7 +281,7 @@ SpriteRenderer:
   m_Size: {x: 18, y: 7.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &616430912
@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 838807556}
   - component: {fileID: 838807555}
   - component: {fileID: 838807557}
+  - component: {fileID: 838807558}
   m_Layer: 0
   m_Name: AR
   m_TagString: Untagged
@@ -405,6 +406,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &838807558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838807554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a896f275556a341986d90fc669072e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &888519896
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +430,7 @@ GameObject:
   - component: {fileID: 888519899}
   - component: {fileID: 888519898}
   - component: {fileID: 888519897}
+  - component: {fileID: 888519900}
   m_Layer: 0
   m_Name: Machine_gun
   m_TagString: Untagged
@@ -511,6 +526,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &888519900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888519896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251c93c5e3d66744295c8727a2eb31b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &1223448754
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,6 +670,7 @@ GameObject:
   - component: {fileID: 1966151137}
   - component: {fileID: 1966151136}
   - component: {fileID: 1966151135}
+  - component: {fileID: 1966151138}
   m_Layer: 0
   m_Name: RPG
   m_TagString: Untagged
@@ -737,6 +766,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1966151138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966151134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4be7821219557b419252c8d4281758c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

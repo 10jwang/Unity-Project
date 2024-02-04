@@ -15,6 +15,8 @@ public class ShooterStateMachine : MonoBehaviour
     public float reloadTime = 2f;
     private float reloadTimer = 0f;
     private Enemy objectToShoot;
+    public float shootLagTime = 0.5f;
+    private float shootTimer = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,7 @@ public class ShooterStateMachine : MonoBehaviour
     {
         if (shooterState == ShooterState.Reloading)
         {
+            shootTimer = 0f;
             reloadTimer += Time.deltaTime;
             if (reloadTimer >= reloadTime)
             {
@@ -62,15 +65,25 @@ public class ShooterStateMachine : MonoBehaviour
 
             if (shooterState == ShooterState.Walking)
             {
+                shootTimer = 0f;
                 animator.SetBool("isShooting", false);
                 movementScript.enabled = true;
             }
             else if (shooterState == ShooterState.Shooting)
             {
-                animator.SetBool("isShooting", true);
-                Shoot(objectToShoot);
-                ShotsFired++;
-                movementScript.enabled = false;
+                if (shootTimer >= shootLagTime)
+                {
+                    shootTimer = 0f;
+                    animator.SetBool("isShooting", true);
+                    Shoot(objectToShoot);
+                    ShotsFired++;
+                    movementScript.enabled = false;
+                }
+                else
+                {
+                    shootTimer += Time.deltaTime;
+                }
+                
             }
         }
         

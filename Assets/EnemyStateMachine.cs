@@ -15,6 +15,8 @@ public class EnemyStateMachine : MonoBehaviour
     public float reloadTime = 2f;
     private float reloadTimer = 0f;
     private Player objectToShoot;
+    public float shootLagTime = 0.5f;
+    private float shootTimer = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +31,7 @@ public class EnemyStateMachine : MonoBehaviour
     {
         if (shooterState == EnemyShooterState.Reloading)
         {
+            shootTimer = 0f;
             reloadTimer += Time.deltaTime;
             if (reloadTimer >= reloadTime)
             {
@@ -63,15 +66,24 @@ public class EnemyStateMachine : MonoBehaviour
 
             if (shooterState == EnemyShooterState.Walking)
             {
+                shootTimer = 0f;
                 animator.SetBool("isShooting", false);
                 movementScript.enabled = true;
             }
             else if (shooterState == EnemyShooterState.Shooting)
             {
-                animator.SetBool("isShooting", true);
-                Shoot(objectToShoot);
-                ShotsFired++;
-                movementScript.enabled = false;
+                if (shootTimer >= shootLagTime)
+                {
+                    shootTimer = 0f;
+                    animator.SetBool("isShooting", true);
+                    Shoot(objectToShoot);
+                    ShotsFired++;
+                    movementScript.enabled = false;
+                }
+                else
+                {
+                    shootTimer += Time.deltaTime;
+                }
             }
         }
 
@@ -107,7 +119,7 @@ public class EnemyStateMachine : MonoBehaviour
     {
         Vector3 direction = enemy.transform.position - this.transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
+        rb.rotation = Mathf.Abs(180f - angle);
         GameObject newBullet = Instantiate(bullet, this.transform.position, Quaternion.identity);
         Rigidbody2D newBullet_rb = newBullet.GetComponent<Rigidbody2D>();
         newBullet_rb.rotation = angle;

@@ -169,6 +169,7 @@ MonoBehaviour:
   bullet: {fileID: 1021646796430746698, guid: 410328110eb9a5748a615dcd32574c12, type: 3}
   ShootCount: 1
   reloadTime: 2
+  shootLagTime: 0.5
 --- !u!61 &6251939086260166258
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShooterStateMachine : MonoBehaviour
+public class EnemyStateMachine : MonoBehaviour
 {
-    private ShooterState shooterState;
+    private EnemyShooterState shooterState;
     public float detectionRange = 200f;
     public Sniper_move_forward movementScript;
     private Animator animator;
@@ -14,12 +14,12 @@ public class ShooterStateMachine : MonoBehaviour
     private int ShotsFired = 0;
     public float reloadTime = 2f;
     private float reloadTimer = 0f;
-    private Enemy objectToShoot;
+    private Player objectToShoot;
 
     // Start is called before the first frame update
     void Start()
     {
-        shooterState = ShooterState.Walking;
+        shooterState = EnemyShooterState.Walking;
         animator = this.GetComponent<Animator>();
         rb = this.GetComponent<Rigidbody2D>();
     }
@@ -27,12 +27,12 @@ public class ShooterStateMachine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (shooterState == ShooterState.Reloading)
+        if (shooterState == EnemyShooterState.Reloading)
         {
             reloadTimer += Time.deltaTime;
             if (reloadTimer >= reloadTime)
             {
-                shooterState = ShooterState.Walking;
+                shooterState = EnemyShooterState.Walking;
                 reloadTimer = 0f;
                 animator.SetBool("isReloading", false);
             }
@@ -42,7 +42,7 @@ public class ShooterStateMachine : MonoBehaviour
             if (ShotsFired >= ShootCount)
             {
                 ShotsFired = 0;
-                shooterState = ShooterState.Reloading;
+                shooterState = EnemyShooterState.Reloading;
                 rb.rotation = 0;
                 animator.SetBool("isReloading", true);
             }
@@ -51,21 +51,22 @@ public class ShooterStateMachine : MonoBehaviour
                 objectToShoot = nextEnemy();
                 if (objectToShoot != null)
                 {
-                    shooterState = ShooterState.Shooting;
+                    Debug.Log(objectToShoot.tag);
+                    shooterState = EnemyShooterState.Shooting;
                 }
                 else
                 {
-                    shooterState = ShooterState.Walking;
+                    shooterState = EnemyShooterState.Walking;
                 }
             }
 
 
-            if (shooterState == ShooterState.Walking)
+            if (shooterState == EnemyShooterState.Walking)
             {
                 animator.SetBool("isShooting", false);
                 movementScript.enabled = true;
             }
-            else if (shooterState == ShooterState.Shooting)
+            else if (shooterState == EnemyShooterState.Shooting)
             {
                 animator.SetBool("isShooting", true);
                 Shoot(objectToShoot);
@@ -73,16 +74,16 @@ public class ShooterStateMachine : MonoBehaviour
                 movementScript.enabled = false;
             }
         }
-        
+
     }
 
-    Enemy nextEnemy()
+    private Player nextEnemy()
     {
         float distanceToClosestEnemy = Mathf.Infinity;
-        Enemy closestEnemy = null;
-        Enemy[] allEnemies = GameObject.FindObjectsOfType<Enemy>();
+        Player closestEnemy = null;
+        Player[] allEnemies = GameObject.FindObjectsOfType<Player>();
 
-        foreach (Enemy currentEnemy in allEnemies)
+        foreach (Player currentEnemy in allEnemies)
         {
             float distanceToEnemy = (currentEnemy.transform.position - this.transform.position).sqrMagnitude;
             if (distanceToEnemy < distanceToClosestEnemy)
@@ -102,7 +103,7 @@ public class ShooterStateMachine : MonoBehaviour
         }
     }
 
-    private void Shoot(Enemy enemy)
+    private void Shoot(Player enemy)
     {
         Vector3 direction = enemy.transform.position - this.transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -114,7 +115,7 @@ public class ShooterStateMachine : MonoBehaviour
     }
 }
 
-public enum ShooterState
+public enum EnemyShooterState
 {
     Reloading,
     Walking,

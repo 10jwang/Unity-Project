@@ -22,6 +22,5 @@ public class SpawnScript : MonoBehaviour
     public void spawnCharacter()
     {
         Instantiate(character, spawnPoint.position, Quaternion.identity);
-        Debug.Log("Hi");
     }
 }

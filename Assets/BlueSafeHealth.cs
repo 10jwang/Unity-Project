@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,32 +5,47 @@ public class BlueSafeHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 1000;
-    // Start is called before the first frame update
     public Slider slider;
-    public Sprite[] bluesafesprite;
-    public SpriteRenderer BlueSafe;
-    
-    
+    public Sprite[] bluesafesprites;
+    public SpriteRenderer blueSafe;
+    public GameObject loseCanvas;
+
+    private bool gameLost = false;
+
     void Start()
     {
         health = maxHealth;
         slider.maxValue = maxHealth;
+        loseCanvas.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        slider.value = health;
-        if (health <= 0)
+        if (!gameLost)
         {
-            // Death
-            Destroy(gameObject);
-        }
-        else
-        {
-            float healthPercentage = (float)health/maxHealth;
-            int spriteIndex = Mathf.FloorToInt(healthPercentage * bluesafesprite.Length);
-            BlueSafe.sprite = bluesafesprite[spriteIndex];
+            slider.value = health;
+
+            if (health <= 0)
+            {
+                Time.timeScale = 0f; // Pause the game
+                Destroy(gameObject);
+                DisplayLoseMessage();
+                gameLost = true;
+            }
+            else
+            {
+                float healthPercentage = (float)health / maxHealth;
+                int spriteIndex = Mathf.Clamp(Mathf.FloorToInt(healthPercentage * bluesafesprites.Length - 1), 0, bluesafesprites.Length - 1);
+                blueSafe.sprite = bluesafesprites[spriteIndex];
+            }
         }
     }
+
+    void DisplayLoseMessage()
+    {
+        loseCanvas.gameObject.SetActive(true);
+    }
 }
+
+
+

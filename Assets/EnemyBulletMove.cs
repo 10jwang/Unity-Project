@@ -21,9 +21,13 @@ public class EnemyBulletMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Player>())
+        BlueSafeHealth blueSafeHealth = collision.gameObject.GetComponent<BlueSafeHealth>();
+    
+        if (blueSafeHealth != null)
         {
-            collision.gameObject.GetComponent<RedSafeHealth>().health -= damage;
+            // Assuming RedSafeHealth has a 'health' variable
+            blueSafeHealth.health -= damage;
+    
             Destroy(gameObject);
         }
     }

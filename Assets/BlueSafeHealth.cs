@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class RedSafeHealth : MonoBehaviour
+public class BlueSafeHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 1000;
     // Start is called before the first frame update
     public Slider slider;
+    public Sprite[] bluesafesprite;
+    public SpriteRenderer BlueSafe;
+    
     
     void Start()
     {
@@ -24,6 +27,12 @@ public class RedSafeHealth : MonoBehaviour
         {
             // Death
             Destroy(gameObject);
+        }
+        else
+        {
+            float healthPercentage = (float)health/maxHealth;
+            int spriteIndex = Mathf.FloorToInt(healthPercentage * bluesafesprite.Length);
+            BlueSafe.sprite = bluesafesprite[spriteIndex];
         }
     }
 }

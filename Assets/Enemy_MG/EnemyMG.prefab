@@ -137,12 +137,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d20470f1351e754ca5b6e3db0c63cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 200
+  detectionRange: 150
   movementScript: {fileID: 9211061770764867391}
-  bullet: {fileID: 1021646796430746698, guid: 410328110eb9a5748a615dcd32574c12, type: 3}
-  ShootCount: 10
-  reloadTime: 2
-  shootLagTime: 0.2
+  bullet: {fileID: 1966079919688319111, guid: 5d861b9c1d0ca6b4ea52e22f3f2ec764, type: 3}
+  ShootCount: 8
+  reloadTime: 4
+  shootLagTime: 0.1
 --- !u!50 &2891524036450573534
 Rigidbody2D:
   serializedVersion: 4
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 50
+  maxHealth: 100
 --- !u!114 &5062542466713314016
 MonoBehaviour:
   m_ObjectHideFlags: 0

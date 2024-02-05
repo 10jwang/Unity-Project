@@ -137,11 +137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046993d52247b404d86cb11d2b422ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 200
+  detectionRange: 150
   movementScript: {fileID: 5551518204144991048}
   bullet: {fileID: 7587830885785212362, guid: e6c37436202aa5f4d9a24a8e955b9f32, type: 3}
   ShootCount: 1
-  reloadTime: 2
+  reloadTime: 2.5
   shootLagTime: 0.5
 --- !u!50 &6007982742514709030
 Rigidbody2D:
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 50
+  maxHealth: 100
 --- !u!61 &8201417463817592320
 BoxCollider2D:
   m_ObjectHideFlags: 0

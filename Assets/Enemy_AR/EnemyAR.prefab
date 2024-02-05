@@ -142,7 +142,7 @@ MonoBehaviour:
   bullet: {fileID: 1966079919688319111, guid: 5d861b9c1d0ca6b4ea52e22f3f2ec764, type: 3}
   ShootCount: 3
   reloadTime: 2
-  shootLagTime: 0.5
+  shootLagTime: 0.4
 --- !u!50 &3364610683802909681
 Rigidbody2D:
   serializedVersion: 4

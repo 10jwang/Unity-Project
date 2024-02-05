@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: blue safe shatter_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1853
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b20c30369f74c929dd246e0da70300
+      internalID: -1303296943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_1
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1838
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a14139634624df580d223ddec2e2f6
+      internalID: 1234250273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_2
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1797
+        width: 70
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583499a23cdbd4623b61389a5b398b76
+      internalID: 300558624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_3
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1678
+        width: 69
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee12e4c3851d84f5fa95128bcaeca601
+      internalID: 2124810921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1065
+        width: 520
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd9445b092404121984ef1e37cf674c
+      internalID: -1414470021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_5
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1613
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b923d14f2b36c48859b1266956e475de
+      internalID: 692928521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_6
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1097
+        width: 489
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a80fd50c4db545f0b7b1de65d46a591
+      internalID: -1131524803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_7
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1612
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ea50fc902e4443aa5a76f03b10c519
+      internalID: -295207856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_8
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1089
+        width: 468
+        height: 555
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5799bc81d7b834650b549fa98d4c58c3
+      internalID: -500497692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_9
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 1581
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8513ff8b72d240f48a3bd3f486913b6
+      internalID: 1738287373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1075
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4c7646831c94816ae4019e551b0afe
+      internalID: 335208907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_11
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 1079
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678eba989f8c249d3a1b6c0932a2f059
+      internalID: 935654715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_12
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1050
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8282463e36bc4125b271563bad3a596
+      internalID: -161050648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_13
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1067
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef30760cf1884b18a189a993a641c70
+      internalID: 696901877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_14
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 1071
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42ad895c6a944038a7401ba5da1d3a8
+      internalID: -737620262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1057
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d46a54e5a61498295e5353ebb9d341
+      internalID: 1929372121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_16
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 1038
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08efde7129d45493c90d4d2519330319
+      internalID: -817717905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_17
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1041
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341c9135bf6ea408db9643a05ba8831c
+      internalID: -320349528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_18
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1045
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fab937d1f1be4aaa93db883090eba5a
+      internalID: 734063635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_19
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 1031
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d61606dc093642eb9493213a6d04c0a
+      internalID: -1584893596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_20
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 999
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54826bd1af3e94053af4e01c3e8cee69
+      internalID: -420738289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_21
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 918
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0808b6a322967470787f6cdc6b503034
+      internalID: 1560526767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_22
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 918
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61969d56c42fb43ceac2f6a5f13412f2
+      internalID: 2083916715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_23
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 875
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ad8d907dfa24b2a960eef94ed68a6e
+      internalID: -1396584087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_24
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 874
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f26476f42fad4e6b8c33796dda2b0dd
+      internalID: -1286617314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 185
+        width: 640
+        height: 671
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb62cd8566fc4c7ab79f2f84d888e31
+      internalID: 18549175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_26
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 212
+        width: 731
+        height: 623
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc6ca2269b6349889798f4a0b3a4181
+      internalID: 982603553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_27
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 832
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7589f86be341c4ad3bab9edec06f82eb
+      internalID: -1639593354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_28
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 767
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c21a7d6606084c9c80c68c2d7b056c2
+      internalID: 1592210082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_29
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 746
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89159fc271afb4398b7dfdf217fe53e4
+      internalID: -911153426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_30
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 720
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a20074931b4e438b3b077e0b60596
+      internalID: 1453420502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_31
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 705
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52d84006484141508233df5e7e8e007
+      internalID: 1434784132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_32
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 637
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efd1435e1b934b368bdb86bd94b6cf1
+      internalID: 1769729832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_33
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 639
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5563f7dda434c44bc85249ec2f09b69d
+      internalID: -1815168315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_34
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 227
+        width: 810
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af1118d1aa2c4f568086fd80a4d66e9
+      internalID: -2137505321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_35
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 220
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e0af809eb640d3b3be865ca6df0cd
+      internalID: 213294202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_36
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 188
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182be812986d84e999eecfd3923f2aa6
+      internalID: -1601656608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_37
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 191
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accca5763e97d4c548216e66f2b33d79
+      internalID: 1504657850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_38
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 79
+        width: 128
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb05c1df6df943b18ccca91e3392e8e
+      internalID: 1156940860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_39
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 177
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6fe2fba7bb240c998a0d449c51c9df
+      internalID: 9347300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_40
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 180
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7154fae079144cfd8ce140016fa426e
+      internalID: -203829652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 161
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffa1abbdaae0445e9d78568bf10d294
+      internalID: 1064126989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_42
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 162
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdde8aa3a8954c54b4aa03da4951ee3
+      internalID: 824777422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_43
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 142
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98a8956968e4418b85c326152f3ad8
+      internalID: 683428839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_44
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 99
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6eb3dae0a9341afae080eac04d1284
+      internalID: 1838448260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_45
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 9
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c34462a22f0a4641b4994bc6b45e35e
+      internalID: 1978307826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_46
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 9
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940fedc07e7724d58bd59b4a6a68ad92
+      internalID: -239794356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue safe shatter_47
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 38
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e80a0fa847e4ad3919b0dab259a2b7
+      internalID: 1819147112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1140,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      blue safe shatter_0: -1303296943
+      blue safe shatter_1: 1234250273
+      blue safe shatter_10: 335208907
+      blue safe shatter_11: 935654715
+      blue safe shatter_12: -161050648
+      blue safe shatter_13: 696901877
+      blue safe shatter_14: -737620262
+      blue safe shatter_15: 1929372121
+      blue safe shatter_16: -817717905
+      blue safe shatter_17: -320349528
+      blue safe shatter_18: 734063635
+      blue safe shatter_19: -1584893596
+      blue safe shatter_2: 300558624
+      blue safe shatter_20: -420738289
+      blue safe shatter_21: 1560526767
+      blue safe shatter_22: 2083916715
+      blue safe shatter_23: -1396584087
+      blue safe shatter_24: -1286617314
+      blue safe shatter_25: 18549175
+      blue safe shatter_26: 982603553
+      blue safe shatter_27: -1639593354
+      blue safe shatter_28: 1592210082
+      blue safe shatter_29: -911153426
+      blue safe shatter_3: 2124810921
+      blue safe shatter_30: 1453420502
+      blue safe shatter_31: 1434784132
+      blue safe shatter_32: 1769729832
+      blue safe shatter_33: -1815168315
+      blue safe shatter_34: -2137505321
+      blue safe shatter_35: 213294202
+      blue safe shatter_36: -1601656608
+      blue safe shatter_37: 1504657850
+      blue safe shatter_38: 1156940860
+      blue safe shatter_39: 9347300
+      blue safe shatter_4: -1414470021
+      blue safe shatter_40: -203829652
+      blue safe shatter_41: 1064126989
+      blue safe shatter_42: 824777422
+      blue safe shatter_43: 683428839
+      blue safe shatter_44: 1838448260
+      blue safe shatter_45: 1978307826
+      blue safe shatter_46: -239794356
+      blue safe shatter_47: 1819147112
+      blue safe shatter_5: 692928521
+      blue safe shatter_6: -1131524803
+      blue safe shatter_7: -295207856
+      blue safe shatter_8: -500497692
+      blue safe shatter_9: 1738287373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

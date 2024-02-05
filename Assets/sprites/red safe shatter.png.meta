@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: red safe shatter_0
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1935
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33fdf0a6c33549468a2cfb528f2aa64
+      internalID: -606246356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red safe shatter_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1053
+        width: 513
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c2d586bac1448bb936b22d09c1453d
+      internalID: -248667784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red safe shatter_2
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1069
+        width: 513
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83c44ea3643444fbbe5fa9660faabf4
+      internalID: 985055577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red safe shatter_3
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 1067
+        width: 512
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d86d7fb4c79486793698a85631d465
+      internalID: 822005017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red safe shatter_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 233
+        width: 836
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4db68e0cbac43a787d2be374945208
+      internalID: 687817952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red safe shatter_5
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 210
+        width: 710
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57335ba978c943978587ced427dad40
+      internalID: -888155398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red safe shatter_6
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 197
+        width: 595
+        height: 643
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb44f07697b2471cab7e309a808489a
+      internalID: 731073057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +279,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      red safe shatter_0: -606246356
+      red safe shatter_1: -248667784
+      red safe shatter_2: 985055577
+      red safe shatter_3: 822005017
+      red safe shatter_4: 687817952
+      red safe shatter_5: -888155398
+      red safe shatter_6: 731073057
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

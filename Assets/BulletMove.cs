@@ -21,10 +21,15 @@ public class BulletMove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Enemy>())
+        RedSafeHealth redSafeHealth = collision.gameObject.GetComponent<RedSafeHealth>();
+    
+        if (redSafeHealth != null)
         {
-            collision.gameObject.GetComponent<Health>().health -= damage;
+            // Assuming RedSafeHealth has a 'health' variable
+            redSafeHealth.health -= damage;
+    
             Destroy(gameObject);
         }
     }
+
 }

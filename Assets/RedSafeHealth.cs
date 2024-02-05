@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Health : MonoBehaviour
+public class RedSafeHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth = 500;
     // Start is called before the first frame update
+    public Slider slider;
     
     void Start()
     {
@@ -17,6 +18,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        slider.value = health;
         if (health <= 0)
         {
             // Death

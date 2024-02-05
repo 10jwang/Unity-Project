@@ -23,7 +23,7 @@ public class EnemyBulletMove : MonoBehaviour
     {
         if (collision.gameObject.GetComponent<Player>())
         {
-            collision.gameObject.GetComponent<Health>().health -= damage;
+            collision.gameObject.GetComponent<RedSafeHealth>().health -= damage;
             Destroy(gameObject);
         }
     }

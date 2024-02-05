@@ -19,12 +19,17 @@ public class BulletMove : MonoBehaviour
         rb.velocity = transform.right * bulletSpeed;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+private void OnCollisionEnter2D(Collision2D collision)
+{
+    RedSafeHealth redSafeHealth = collision.gameObject.GetComponent<RedSafeHealth>();
+
+    if (redSafeHealth != null)
     {
-        if (collision.gameObject.GetComponent<Enemy>())
-        {
-            collision.gameObject.GetComponent<Health>().health -= damage;
-            Destroy(gameObject);
-        }
+        // Assuming RedSafeHealth has a 'health' variable
+        redSafeHealth.health -= damage;
+
+        Destroy(gameObject);
     }
+}
+
 }

@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046993d52247b404d86cb11d2b422ace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRange: 350
+  detectionRange: 25
   movementScript: {fileID: 7108188776493255770}
   bullet: {fileID: 6454848209929362871, guid: b8d8905015f6a924b9d9fa640b857d00, type: 3}
   ShootCount: 1

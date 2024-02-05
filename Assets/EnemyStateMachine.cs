@@ -54,7 +54,6 @@ public class EnemyStateMachine : MonoBehaviour
                 objectToShoot = nextEnemy();
                 if (objectToShoot != null)
                 {
-                    Debug.Log(objectToShoot.tag);
                     shooterState = EnemyShooterState.Shooting;
                 }
                 else
@@ -105,7 +104,7 @@ public class EnemyStateMachine : MonoBehaviour
             }
         }
 
-        if (distanceToClosestEnemy > detectionRange)
+        if (distanceToClosestEnemy > (detectionRange * detectionRange))
         {
             return null;
         }

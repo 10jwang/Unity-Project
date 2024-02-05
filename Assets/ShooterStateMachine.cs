@@ -105,7 +105,7 @@ public class ShooterStateMachine : MonoBehaviour
             }
         }
 
-        if (distanceToClosestEnemy > detectionRange)
+        if (distanceToClosestEnemy > (detectionRange * detectionRange))
         {
             return null;
         }
